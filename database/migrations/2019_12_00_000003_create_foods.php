@@ -21,8 +21,8 @@ class CreateFoods extends Migration
             $table->string('image');
             $table->string('description');
             $table->float('precio');
-            $table->foreign('category_id')->references('id')->on('categories');
-            $table->foreign('restaurant_id')->references('id')->on('restaurants');
+            $table->foreign('category_id')->references('id')->on('categories')->onDelete('cascade');
+            $table->foreign('restaurant_id')->references('id')->on('restaurants')->onDelete('cascade');
         });
     }
 

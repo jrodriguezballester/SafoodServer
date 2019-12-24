@@ -27,6 +27,8 @@ Instalando graphQL
         (https://styde.net/insercion-de-datos-con-los-seeders-de-laravel)
 - [Fix TableSeeder don’t exist "php artisan migrate –seed"]
         (https://www.blenderdeluxe.com/fix-tableseeder-dont-exist-php-artisan-migrate-seed-laravel-5)
+- [Empezando graphQL]
+        https://medium.com/@devfelipe.mansilla/usando-graphql-con-laravel-446f0de02424
 
 ### para trabajar con foreing keys
 Editar el archivo /config/database.php
