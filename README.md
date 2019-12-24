@@ -19,12 +19,8 @@ npm run db
 - NULL
 
 ## Ultimas modificaciones
-- Middleware Cors para controlar quien puede hacer peticiones a la api
-- Creaccion tabla, modelo, controlador y migracion
-- añadida ruta en api
-- Renombrar modelos
-- Añadir campo precio en la tabla comida
-- Creaccion de script para rellenar base de Datos
+Instalando graphQL
+- composer require rebing/graphql-laravel
 
 ## Documentacion para el desarrollo
 - [Inserción de datos con los seeders de Laravel]
